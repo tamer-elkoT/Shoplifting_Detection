@@ -47,7 +47,7 @@ We are using a **Model Bake-off** strategy where each member tests a different S
 | **George** | **VideoMAE**  | `ml_pipeline/notebooks` |
 | **Ebrahim** | **YOLO + LRCN** (Hybrid) | `ml_pipeline/src` |
 | **Seif** | **TimeSformer**** (X3D/I3D) | `/app/models` |
-| **Member 5** | **UI & DevOps** | `/app/views`, `Dockerfile` |
+| **Member 5** | **SlowFast Networks** | `/app/views`, `Dockerfile` |
 
 ---
 
