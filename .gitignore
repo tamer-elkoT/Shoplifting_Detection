@@ -11,5 +11,6 @@ __pycashe__/
 .pytest_cache/
 app/controllers/__pycache__/
 app/models/__pycache__/
-
+ml_pipeline/Notebooks/x3d_model.pth
+ml_pipeline/Notebooks/i3d_model.pth
 
