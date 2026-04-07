@@ -43,18 +43,18 @@ We are using a **Model Bake-off** strategy where each member tests a different S
 
 | Member | Assigned Approach | Primary Directory |
 | --- | --- | --- |
-| **Tamer (Owner)** | **MoViNet** (Edge Optimized) | `/app/controllers`, `core/` |
+| **Tamer (Owner)** | **MoViNet** (Edge Optimized) | `ml_pipeline/notebooks` |
 | **George** | **VideoMAE**  | `ml_pipeline/notebooks` |
-| **Ebrahim** | **YOLO + LRCN** (Hybrid) | `ml_pipeline/src` |
-| **Seif** | **TimeSformer**** (X3D/I3D) | `/app/models` |
-| **Member 5** | **SlowFast Networks** | `/app/views`, `Dockerfile` |
+| **Ebrahim** | **YOLO + LRCN** (Hybrid) | `ml_pipeline/notebooks` |
+| **Seif** | **TimeSformer**** (X3D/I3D) | `ml_pipeline/notebooks` |
+| **Member 5** | **SlowFast Networks** | `ml_pipeline/notebooks` |
 
 ---
 
 ## 🛠️ The Implementation Process
 
 ### Phase 1: Offline Research (`ml_pipeline/`)
-
+git 
 * Clean data (remove 218 duplicates).
 * Handle class imbalance using **Focal Loss** or **Class Weights**.
 * Train and export best weights to `ml_pipeline/weights/`.
